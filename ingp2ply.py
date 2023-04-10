@@ -1,9 +1,9 @@
 resolution = 350
-ingp_path = "./data/nerf/fox/transforms_base.ingp"
+ingp_path = "../data/nerf/fox/transforms_base.ingp"
 output_ply_name = "ingp2ply_output.ply"
 
 #--------------------------------------------------
-pyngp_path = './build'
+pyngp_path = '../build'
 import sys
 sys.path.append(pyngp_path)
 import pyngp as ngp
